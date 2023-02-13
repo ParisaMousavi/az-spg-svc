@@ -25,6 +25,6 @@ variable "network" {
   type = object({
     app_subnet_id             = string
     service_runtime_subnet_id = string
-    cidr_ranges = string
+    cidr_ranges               = string
   })
 }
